@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "rewrites": [
+    { "source": "/manifest.json", "destination": "/api/index" },
+    { "source": "/:path*", "destination": "/api/index" }
+  ]
+}
